@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <modules>
+        <Luca_News>
+            <version>0.1.0</version>
+        </Luca_News>
+    </modules>
+    <global>
+        <blocks>
+            <luca_news>
+                <class>Luca_News_Block</class>
+            </luca_news>
+        </blocks>
+        <helpers>
+            <luca_news>
+                <class>Luca_News_Helper</class>
+            </luca_news>
+        </helpers>
+        <models>
+            <luca_news>
+                <class>Luca_News_Model</class>
+                <resourceModel>luca_news_resource</resourceModel>
+            </luca_news>
+            <luca_news_resource>
+                <class>Luca_News_Model_Resource</class>
+                <entities>
+                    <category>
+                        <table>luca_news_category</table>
+                    </category>
+                    <story>
+                        <table>luca_news_story</table>
+                    </story>
+                </entities>
+            </luca_news_resource>
+        </models>
+        <resources>
+            <luca_news_setup>
+                <setup>
+                    <module>Luca_News</module>
+                </setup>
+            </luca_news_setup>
+        </resources>
+    </global>
+    <frontend>
+
+    </frontend>
+    <admin>
+
+    </admin>
+    <adminhtml>
+
+    </adminhtml>
+    <default>
+
+    </default>
+</config>

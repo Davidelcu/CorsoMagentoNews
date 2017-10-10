@@ -4,7 +4,7 @@
  */
 
 /**
- * Luca News Helper Data
+ * Luca News Helper data
  *
  * Main Helper
  * @author Davide Luca <davide.luca@thinkopen.it>

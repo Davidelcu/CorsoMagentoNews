@@ -42,13 +42,37 @@
         </resources>
     </global>
     <frontend>
-
+        <translate>
+            <modules>
+                <luca_news>
+                    <files>
+                        <default>Luca_News.csv</default>
+                    </files>
+                </luca_news>
+            </modules>
+        </translate>
     </frontend>
     <admin>
-
+        <routers>
+            <luca_news>
+                <use>admin</use>
+                <args>
+                    <module>Luca_News</module>
+                    <frontName>luca_news</frontName>
+                </args>
+            </luca_news>
+        </routers>
     </admin>
     <adminhtml>
-
+        <translate>
+            <modules>
+                <luca_news>
+                    <files>
+                        <default>Luca_News.csv</default>
+                    </files>
+                </luca_news>
+            </modules>
+        </translate>
     </adminhtml>
     <default>
 

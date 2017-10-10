@@ -23,6 +23,18 @@
 class Luca_News_Model_Category extends Mage_Core_Model_Abstract
 {
     /**
+     * $_eventPrefix
+     * @var string
+     */
+    protected $_eventPrefix = 'luca_news_category';
+
+    /**
+     * $_eventObject
+     * @var string
+     */
+    protected $_eventObject = 'category';
+
+    /**
      * _construct
      */
     protected function _construct()
@@ -36,7 +48,7 @@ class Luca_News_Model_Category extends Mage_Core_Model_Abstract
      */
     protected function _beforeSave()
     {
-        return parent::_beforeSave();
+        parent::_beforeSave();
         $this->setUpdatedAt(Mage::getSingleton('core/date')->gmtDate());
         return $this;
     }

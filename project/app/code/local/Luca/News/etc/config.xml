@@ -73,6 +73,13 @@
                 </luca_news>
             </modules>
         </translate>
+        <layout>
+            <updates>
+                <luca_news>
+                    <file>luca_news.xml</file>
+                </luca_news>
+            </updates>
+        </layout>
     </adminhtml>
     <default>
 

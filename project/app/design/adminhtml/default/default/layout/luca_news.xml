@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <luca_news_adminhtml_category_index>
+        <reference name="content">
+            <block type="luca_news/adminhtml_category" name="luca_news.adminhtml.category.grid" />
+        </reference>
+    </luca_news_adminhtml_category_index>
+</layout>

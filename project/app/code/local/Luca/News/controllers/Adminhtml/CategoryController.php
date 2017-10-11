@@ -18,7 +18,8 @@ class Luca_News_Adminhtml_CategoryController extends Mage_Adminhtml_Controller_A
      */
     public function  indexAction()
     {
-        echo "eccomi"; die;
+        $this->loadLayout();
+        $this->renderLayout();
     }
 
     /**

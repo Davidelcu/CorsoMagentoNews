@@ -77,7 +77,7 @@ class Luca_News_Block_Adminhtml_Category_Grid extends Mage_Adminhtml_Block_Widge
                 'header' => $this->__('Status'),
                 'width' => 250,
                 'type' => 'options',
-                'options' => Mage::getModel('luca_news/source_status')->toOptionArray(),
+                'options' => Mage::getModel('luca_news/source_status')->toGridArray(),
                 'renderer' => 'luca_news/adminhtml_category_grid_renderer_status',
             )
         );

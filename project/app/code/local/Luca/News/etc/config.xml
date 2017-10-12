@@ -51,6 +51,22 @@
                 </luca_news>
             </modules>
         </translate>
+        <routers>
+            <luca_news>
+                <use>standard</use>
+                <args>
+                    <module>Luca_News</module>
+                    <frontName>stories</frontName>
+                </args>
+            </luca_news>
+        </routers>
+        <layout>
+            <updates>
+                <luca_news>
+                    <file>luca_news.xml</file>
+                </luca_news>
+            </updates>
+        </layout>
     </frontend>
     <admin>
         <routers>

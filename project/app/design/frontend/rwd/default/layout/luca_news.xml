@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <luca_news_list_index>
+        <reference name="content">
+            <block type="luca_news/story" name="luca_news.list" template="luca_news/list.phtml" />
+        </reference>
+    </luca_news_list_index>
+</layout>

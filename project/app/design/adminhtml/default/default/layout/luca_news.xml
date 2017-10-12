@@ -5,4 +5,12 @@
             <block type="luca_news/adminhtml_category" name="luca_news.adminhtml.category.grid" />
         </reference>
     </luca_news_adminhtml_category_index>
+    <luca_news_adminhtml_category_edit>
+        <reference name="left">
+            <block type="luca_news/adminhtml_category_edit_tabs" name="luca_news.adminhtml.category.edit.tabs" />
+        </reference>
+        <reference name="content">
+            <block type="luca_news/adminhtml_category_edit" name="luca_news.adminhtml.category.edit" />
+        </reference>
+    </luca_news_adminhtml_category_edit>
 </layout>

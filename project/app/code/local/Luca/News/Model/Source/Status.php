@@ -24,4 +24,19 @@ class Luca_News_Model_Source_Status
             array('value' => 1, 'label' => Mage::helper('luca_news')->__('Enabled')),
         );
     }
+
+    /**
+     * toGridArray
+     *
+     * returns toOptionArray method as options to grid column
+     * @return array
+     */
+    public function  toGridArray()
+    {
+        $array = array();
+        foreach ($this->toOptionArray() as $option) {
+            $array[$option['value']] = $option ['label'];
+        }
+        return $array;
+    }
 }
